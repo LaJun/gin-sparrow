@@ -1,0 +1,17 @@
+runMode: debug
+server:
+  HTTPPort: 8080
+  readTimeout: 10
+  writeTimeout: 10
+database:
+  type: mysql
+  user: root
+  password: ceshi
+  host: 0.0.0.0
+    dbName: ceshi
+redis:
+  host: localhost
+  password:
+log:
+  path: logs/
+  prefix: log_
